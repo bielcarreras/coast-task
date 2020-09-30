@@ -1,3 +1,13 @@
+Task: build a wordpress site
+The task is the build the front-end and the back-end of this page: https://share.getcloudapp.com/jkuyvkmz
+ 
+Attached is an Adobe XD file for the page. If you don’t have XD you can download it for free here: https://www.adobe.com/uk/products/xd.html
+ 
+The form on the page should accept the URL of a WordPress REST API `posts` endpoint (for example https://www.coastdigital.co.uk/wp-json/wp/v2/posts). When submitted it should then fetch the latest 6 posts and display them in a grid below. 
+The grey images in the design are just for placeholder, please use the actual images from the API response for the featured images.
+
+SASS and JointWP theme used
+
 I’ve used JointWP and foundation to build the theme ,  so when installed just run
 cd JointsWP
 $ npm install
